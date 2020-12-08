@@ -1,0 +1,2 @@
+javac -cp lib/jade.jar src/assignments/LinearRegression.java -d classes/
+java -cp lib/jade.jar;classes/ jade.Boot -gui lrAgent:assignments.LinearRegression
